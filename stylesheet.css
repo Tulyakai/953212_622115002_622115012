@@ -1,0 +1,202 @@
+/* Main color using
+#5243d6
+#fcec49
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#5243d6;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fcec49;
+}
+
+
+/*navber*/
+nav{
+    background-color:#fcec49;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 35px;
+}
+
+/*background parallax*/
+.parallax1 {
+
+    margin-top: -8px;
+    /* The image used */
+    background-image: url("assets/Pizza-from-the-Pizza-Company.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.parallax2 {
+
+    margin-top: -8px;
+    /* The image used */
+    background-image: url("assets/parallax2.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/*VDO banner*/
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%;    
+}
+/* Container holding the image and the text */
+#banner {
+  position: relative;
+  text-align: center;
+}
+
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 10px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    font-size: 75px;
+    font-weight: bold   ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+/*about*/
+
+#about{
+    position: relative;
+    height: 100%;
+            
+}
+#about h1{
+    font-size: 90px;
+    font-weight: bold;
+}
+#about img{
+    width: 30%;
+    
+}
+
+/*menu*/
+#menu h1,p,form, .row{
+    margin: 2% 5%;
+    
+    
+}
+#menu{
+    position: relative;
+}
+#menu .thumbnail:hover{
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 25px;
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+
+}
+
+form{
+    background-color: #fcec49;
+    color: red;
+    border-radius: 25px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+
+/*pizza images*/
+#pizza1{
+    width: 40%;
+}
+#pizza2{
+    width: 40%;
+
+}
+#pizza3{
+    width: 40%;
+}
+#pizza4{
+    width: 40%;
+
+}
+
+
+
+
+/*contact*/
+#contact h1,p,img{
+    margin: 2% 5%;
+    
+    
+}
+#contact{
+    position: relative;
+    border: 2px solid black;
+    
+}
+#contact img{
+    width: 30%;
+    
+}
+
+
+/*footer*/
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fcec49;
+    color: #5243d6;
+    text-align: center;
+}
+
+
+
+
+
+/* Shaking animation */
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
