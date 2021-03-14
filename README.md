@@ -1,4 +1,4 @@
-This is project proposal of 953212 DB SYS & DB SYS DESIGN
+This is project proposal of 953212 DB SYS & DB SYS DESIGN(All hard code PHP)
 
 Prepared by 622115002 Krittaporn Kaewpiyarat and 622115012 Tulyawat Tubkhong
 
